@@ -1,0 +1,4 @@
+C:\Users\bigfo\Dev\EcommerceAPI\EcommerceAPI\obj\Debug\netcoreapp2.0\EcommerceAPI.csprojResolveAssemblyReference.cache
+C:\Users\bigfo\Dev\EcommerceAPI\EcommerceAPI\obj\Debug\netcoreapp2.0\EcommerceAPI.csproj.CoreCompileInputs.cache
+C:\Users\bigfo\Dev\EcommerceAPI\EcommerceAPI\obj\Debug\netcoreapp2.0\EcommerceAPI.AssemblyInfoInputs.cache
+C:\Users\bigfo\Dev\EcommerceAPI\EcommerceAPI\obj\Debug\netcoreapp2.0\EcommerceAPI.AssemblyInfo.cs
