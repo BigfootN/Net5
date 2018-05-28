@@ -10,11 +10,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 
 namespace EcommerceAPI
 {
     public class Startup
     {
+        readonly RsaSecurityKey key = new RsaSecurityKey(System.Security.Cryptography.RSA.Create());
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;

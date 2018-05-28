@@ -14,7 +14,7 @@ namespace EcommerceAPI.Models
         }
 
         public DbSet<Product> Products { get; set; }
-        public DbSet<Client> Clients { get; set; }
+        public DbSet<Customer> Clients { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Login> Logins { get; set; }
     }
