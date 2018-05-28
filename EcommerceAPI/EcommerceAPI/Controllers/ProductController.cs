@@ -43,6 +43,20 @@ namespace EcommerceAPI.Controllers
             _context.SaveChanges();
         }
 
+        [HttpDelete]
+        public void Delete(int id)
+        {
+            Product exists;
+
+            exists = _context.Products.FirstOrDefault(p => p.Id == id);
+
+            if (exists != null)
+            {
+                _context.Products.Remove(exists);
+                _context.SaveChanges();
+            }
+        }
+
         private bool productEquals(Product prod1, Product prod2)
         {
             if (prod1.Price != prod2.Price)

@@ -8,6 +8,8 @@ namespace EcommerceAPI.Models
     public class OrderStatus
     {
         public int Id { get; set; }
-        public int IsReady { get; set; }
+        public bool IsReady { get; set; }
+        public bool IsSent { get; set; }
+        public bool Delivered { get; set; }
     }
 }
