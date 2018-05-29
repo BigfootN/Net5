@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class ValuesController : Controller
     {
         private readonly MyDBContext _context;

@@ -1,4 +1,5 @@
 ﻿using EcommerceAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace EcommerceAPI.Controllers
 {
-    [Route("db/Customer")]
+    [Route("api/db/Customer")]
+    [Authorize]
     public class CustomerController : Controller
     {
         private MyDBContext _context;

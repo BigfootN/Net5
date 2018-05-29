@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EcommerceAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceAPI.Controllers
 {
-    [Route("db/Product")]
+    [Route("api/db/Product")]
+    [Authorize]
     public class ProductController : Controller
     {
         private MyDBContext _context;
